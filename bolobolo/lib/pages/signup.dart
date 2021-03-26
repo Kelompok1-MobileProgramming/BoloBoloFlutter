@@ -4,6 +4,8 @@ import 'package:flutter_demo/pages/widgets/custom_shape.dart';
 import 'package:flutter_demo/pages/widgets/customappbar.dart';
 import 'package:flutter_demo/pages/widgets/responsive_ui.dart';
 import 'package:flutter_demo/pages/widgets/textformfield.dart';
+import 'package:flutter_demo/pages/signin.dart';
+import 'package:flutter_demo/home.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override
@@ -227,9 +229,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
     return RaisedButton(
       elevation: 0,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
-      onPressed: () {
-        print("Routing to your account");
-      },
+      onPressed: () => Navigator.of(context)
+          .push(new MaterialPageRoute(builder: (context) => new HomePage())),
       textColor: Colors.white,
       padding: EdgeInsets.all(0.0),
       child: Container(
@@ -311,10 +312,8 @@ class _SignUpScreenState extends State<SignUpScreen> {
             width: 5,
           ),
           GestureDetector(
-            onTap: () {
-              Navigator.of(context).pop(SIGN_IN);
-              print("Routing to Sign up screen");
-            },
+            onTap: () => Navigator.of(context).push(
+                new MaterialPageRoute(builder: (context) => SignInScreen())),
             child: Text(
               "Sign in",
               style: TextStyle(

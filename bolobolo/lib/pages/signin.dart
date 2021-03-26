@@ -3,6 +3,9 @@ import 'package:flutter_demo/componets/constants.dart';
 import 'package:flutter_demo/pages/widgets/custom_shape.dart';
 import 'package:flutter_demo/pages/widgets/responsive_ui.dart';
 import 'package:flutter_demo/pages/widgets/textformfield.dart';
+import 'package:flutter_demo/pages/signup.dart';
+
+import 'package:flutter_demo/home.dart';
 
 class SignInPage extends StatelessWidget {
   @override
@@ -119,7 +122,7 @@ class _SignInScreenState extends State<SignInScreen> {
             "Welcome",
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: _large ? 40 : (_medium ? 30 : 20),
+              fontSize: _large ? 60 : (_medium ? 50 : 40),
             ),
           ),
         ],
@@ -196,9 +199,8 @@ class _SignInScreenState extends State<SignInScreen> {
             width: 5,
           ),
           GestureDetector(
-            onTap: () {
-              print("Routing");
-            },
+            onTap: () => Navigator.of(context).push(
+                new MaterialPageRoute(builder: (context) => SignUpScreen())),
             child: Text(
               "Recover",
               style: TextStyle(
@@ -215,7 +217,8 @@ class _SignInScreenState extends State<SignInScreen> {
       elevation: 0,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
       onPressed: () {
-        print("Routing to your account");
+        Navigator.of(context)
+            .push(new MaterialPageRoute(builder: (context) => new HomePage()));
         Scaffold.of(context)
             .showSnackBar(SnackBar(content: Text('Login Successful')));
       },
@@ -253,10 +256,8 @@ class _SignInScreenState extends State<SignInScreen> {
             width: 5,
           ),
           GestureDetector(
-            onTap: () {
-              Navigator.of(context).pushNamed(SIGN_UP);
-              print("Routing to Sign up screen");
-            },
+            onTap: () => Navigator.of(context).push(
+                new MaterialPageRoute(builder: (context) => SignUpScreen())),
             child: Text(
               "Sign up",
               style: TextStyle(

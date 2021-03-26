@@ -119,7 +119,7 @@ class _SignInScreenState extends State<SignInScreen> {
             "Welcome",
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: _large ? 60 : (_medium ? 50 : 40),
+              fontSize: _large ? 40 : (_medium ? 30 : 20),
             ),
           ),
         ],

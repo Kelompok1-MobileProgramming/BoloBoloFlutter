@@ -31,7 +31,6 @@ Nama Kelompok :
 <pre>
 1. Aplikasi BoloBolo App dapat menunjukkan preview barang yang sudah dimasukkan kedalam database.
 2. Barang yang dipilih dari preview barang dapat dimasukkan ke keranjang dan dapat dipesan.
-x
 </pre>
 
 <h1>Application Requirement :</h1>

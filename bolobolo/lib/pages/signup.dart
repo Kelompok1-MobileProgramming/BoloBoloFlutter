@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:bolobolo/componets/constants.dart';
-import 'package:bolobolo/pages/widgets/custom_shape.dart';
-import 'package:bolobolo/pages/widgets/customappbar.dart';
-import 'package:bolobolo/pages/widgets/responsive_ui.dart';
-import 'package:bolobolo/pages/widgets/textformfield.dart';
-import 'package:bolobolo/pages/signin.dart';
-import 'package:bolobolo/home.dart';
+import 'package:flutter_demo/componets/constants.dart';
+import 'package:flutter_demo/pages/widgets/custom_shape.dart';
+import 'package:flutter_demo/pages/widgets/customappbar.dart';
+import 'package:flutter_demo/pages/widgets/responsive_ui.dart';
+import 'package:flutter_demo/pages/widgets/textformfield.dart';
 
 class SignUpScreen extends StatefulWidget {
   @override
@@ -229,8 +227,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
     return RaisedButton(
       elevation: 0,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
-      onPressed: () => Navigator.of(context)
-          .push(new MaterialPageRoute(builder: (context) => new HomePage())),
+      onPressed: () {
+        print("Routing to your account");
+      },
       textColor: Colors.white,
       padding: EdgeInsets.all(0.0),
       child: Container(
@@ -312,8 +311,10 @@ class _SignUpScreenState extends State<SignUpScreen> {
             width: 5,
           ),
           GestureDetector(
-            onTap: () => Navigator.of(context).push(
-                new MaterialPageRoute(builder: (context) => SignInScreen())),
+            onTap: () {
+              Navigator.of(context).pop(SIGN_IN);
+              print("Routing to Sign up screen");
+            },
             child: Text(
               "Sign in",
               style: TextStyle(

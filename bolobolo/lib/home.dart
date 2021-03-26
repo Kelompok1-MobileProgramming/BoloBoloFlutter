@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
-import 'package:bolobolo/componets/horizontal_listview.dart';
-import 'package:bolobolo/componets/products.dart';
-import 'package:bolobolo/pages/cart.dart';
-import 'package:bolobolo/pages/chats.dart';
-import 'package:bolobolo/pages/signin.dart';
+import 'package:flutter_demo/componets/horizontal_listview.dart';
+import 'package:flutter_demo/componets/products.dart';
+import 'package:flutter_demo/pages/cart.dart';
+import 'package:flutter_demo/pages/chats.dart';
+import 'package:flutter_demo/pages/signin.dart';
 
 import 'pages/chats.dart';
 import 'pages/profile.dart';

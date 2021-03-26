@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:bolobolo/home.dart';
-import 'package:bolobolo/server.dart' as server;
+import 'package:flutter_demo/home.dart';
+import 'package:flutter_demo/server.dart' as server;
 
 void main() {
   server.start();

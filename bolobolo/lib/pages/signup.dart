@@ -69,7 +69,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   : (_medium ? _height / 7 : _height / 6.5),
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Colors.orange[200], Colors.pinkAccent],
+                  colors: [Colors.purple, Colors.purple],
                 ),
               ),
             ),
@@ -85,7 +85,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   : (_medium ? _height / 11 : _height / 10),
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Colors.orange[200], Colors.pinkAccent],
+                  colors: [Colors.purple, Colors.purple],
                 ),
               ),
             ),
@@ -112,7 +112,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
               child: Icon(
                 Icons.add_a_photo,
                 size: _large ? 40 : (_medium ? 33 : 31),
-                color: Colors.orange[200],
+                color: Colors.purple,
               )),
         ),
 //        Positioned(
@@ -207,7 +207,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Checkbox(
-              activeColor: Colors.orange[200],
+              activeColor: Colors.purple,
               value: checkBoxValue,
               onChanged: (bool newValue) {
                 setState(() {
@@ -240,7 +240,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         decoration: BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(20.0)),
           gradient: LinearGradient(
-            colors: <Color>[Colors.orange[200], Colors.pinkAccent],
+            colors: <Color>[Colors.purple, Colors.purple],
           ),
         ),
         padding: const EdgeInsets.all(12.0),

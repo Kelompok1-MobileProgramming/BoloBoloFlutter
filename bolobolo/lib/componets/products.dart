@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/pages/product_details.dart';
+import 'package:bolobolo/pages/product_details.dart';
 
 class Products extends StatefulWidget {
   @override
@@ -9,7 +9,7 @@ class Products extends StatefulWidget {
 class _ProductsState extends State<Products> {
   var product_list = [
     {
-      "name": "Masker",
+      "name": "Masker Hitam",
       "picture": "images/masker.jpg",
       "old_price": "IDR 3,9k",
       "price": "IDR 3,9k",
@@ -81,7 +81,7 @@ class _ProductsState extends State<Products> {
       "price": "IDR 19k",
     },
     {
-      "name": "KETI SHOW",
+      "name": "Tiket KETI SHOW",
       "picture": "images/keti.jpg",
       "old_price": "IDR 1000k",
       "price": "IDR 1000k",
@@ -105,7 +105,7 @@ class _ProductsState extends State<Products> {
       "price": "IDR 13k",
     },
     {
-      "name": "Mainan",
+      "name": "Mobil Mobilan",
       "picture": "images/toys.jpg",
       "old_price": "IDR 35,5k",
       "price": "IDR 35,5k",

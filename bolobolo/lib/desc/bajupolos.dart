@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/componets/products.dart';
+import 'package:bolobolo/componets/products.dart';
 
 class ProductDetails extends StatefulWidget {
   final product_detail_name;
@@ -209,7 +209,8 @@ class _ProductDetailsState extends State<ProductDetails> {
               "Product Details",
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
-            subtitle: Text("Baju polos berwarna putih ready all size (xs,s,m,l,xl,xxl)"),
+            subtitle: Text(
+                "Baju polos berwarna putih ready all size (xs,s,m,l,xl,xxl)"),
           ),
 
           Divider(),

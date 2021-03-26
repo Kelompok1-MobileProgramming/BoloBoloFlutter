@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import '../componets/products.dart';
+
+import '../pages/profile.dart';
+import 'barang.dart';
 
 class HorizontalList extends StatelessWidget {
   @override
@@ -19,8 +21,7 @@ class HorizontalList extends StatelessWidget {
                   ),
                   child: InkWell(
                     onTap: () => Navigator.of(context).push(
-                        new MaterialPageRoute(
-                            builder: (context) => Products())),
+                        new MaterialPageRoute(builder: (context) => MyApps())),
                     child: Image.asset(
                       'images/recomended.jpg',
                       width: 80,
@@ -29,62 +30,24 @@ class HorizontalList extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '    Recommended',
-                  style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
+                  'Tickets',
+                  style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold),
                 ),
               ],
             ),
           ),
-          new Container(
-            child: Column(
-              children: [
-                Container(
-                  margin: const EdgeInsets.only(
-                    left: 20.0,
-                  ),
-                  child: InkWell(
-                    onTap: () => Navigator.of(context).push(
-                        new MaterialPageRoute(
-                            builder: (context) => Products())),
-                    child: Image.asset(
-                      'images/popular.jpg',
-                      width: 80,
-                      height: 80,
-                    ),
-                  ),
-                ),
-                Text(
-                  '    Popular',
-                  style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
-                ),
-              ],
-            ),
-          ),
-          new Container(
-            child: Column(
-              children: [
-                Container(
-                  margin: const EdgeInsets.only(
-                    left: 20.0,
-                  ),
-                  child: InkWell(
-                    onTap: () => Navigator.of(context).push(
-                        new MaterialPageRoute(
-                            builder: (context) => Products())),
-                    child: Image.asset(
-                      'images/allproduct.jpg',
-                      width: 80,
-                      height: 80,
-                    ),
-                  ),
-                ),
-                Text(
-                  '     All Products',
-                  style: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
-                ),
-              ],
-            ),
-          ),
+          new InkWell(
+              onTap: () {},
+              child: Categories(
+                image_location: 'images/popular.jpg',
+                image_caption: 'Popular',
+              )),
+          new InkWell(
+              onTap: () {},
+              child: Categories(
+                image_location: 'images/allproduct.jpg',
+                image_caption: 'All Products',
+              )),
         ],
       ),
     );
@@ -113,7 +76,6 @@ class Categories extends StatelessWidget {
             ),
             subtitle: Container(
               alignment: Alignment.topCenter,
-              child: Text(image_caption),
             ),
           ),
         ),

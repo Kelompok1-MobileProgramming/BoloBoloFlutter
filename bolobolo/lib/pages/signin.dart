@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/componets/constants.dart';
-import 'package:flutter_demo/pages/widgets/custom_shape.dart';
-import 'package:flutter_demo/pages/widgets/responsive_ui.dart';
-import 'package:flutter_demo/pages/widgets/textformfield.dart';
+import 'package:bolobolo/componets/constants.dart';
+import 'package:bolobolo/pages/widgets/custom_shape.dart';
+import 'package:bolobolo/pages/widgets/responsive_ui.dart';
+import 'package:bolobolo/pages/widgets/textformfield.dart';
+import 'package:bolobolo/pages/signup.dart';
+
+import 'package:bolobolo/home.dart';
 
 class SignInPage extends StatelessWidget {
   @override
@@ -215,7 +218,8 @@ class _SignInScreenState extends State<SignInScreen> {
       elevation: 0,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
       onPressed: () {
-        print("Routing to your account");
+        Navigator.of(context)
+            .push(new MaterialPageRoute(builder: (context) => new HomePage()));
         Scaffold.of(context)
             .showSnackBar(SnackBar(content: Text('Login Successful')));
       },
@@ -253,10 +257,8 @@ class _SignInScreenState extends State<SignInScreen> {
             width: 5,
           ),
           GestureDetector(
-            onTap: () {
-              Navigator.of(context).pushNamed(SIGN_UP);
-              print("Routing to Sign up screen");
-            },
+            onTap: () => Navigator.of(context).push(
+                new MaterialPageRoute(builder: (context) => SignUpScreen())),
             child: Text(
               "Sign up",
               style: TextStyle(

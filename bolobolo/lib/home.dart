@@ -5,6 +5,7 @@ import 'package:bolobolo/componets/products.dart';
 import 'package:bolobolo/pages/cart.dart';
 import 'package:bolobolo/pages/chats.dart';
 import 'package:bolobolo/pages/signin.dart';
+import 'package:bolobolo/screens/wishlist.dart';
 
 import 'pages/chats.dart';
 import 'pages/profile.dart';
@@ -104,7 +105,8 @@ class _HomePageState extends State<HomePage> {
               ),
 
               new InkWell(
-                onTap: () {},
+                onTap: () => Navigator.of(context).push(new MaterialPageRoute(
+                    builder: (context) => new Wishlist())),
                 child: ListTile(
                   title: Text("My Wishlist"),
                   leading: Icon(Icons.favorite),

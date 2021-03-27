@@ -20,12 +20,12 @@ class _HomePageState extends State<HomePage> {
     Widget image_carousel = new Container(
       height: 150,
       child: new Carousel(
-        boxFit: BoxFit.cover,
+        boxFit: BoxFit.fitHeight,
         images: [
           //NetworkImage("https://bagule-images.s3.us-east-2.amazonaws.com/1562234993811.jpeg"),
           AssetImage('images/keti.jpg'),
           AssetImage('images/bajupolos.jpg'),
-          AssetImage('images/airpods.jpg'),
+          AssetImage('images/jeans.jpg'),
         ],
         autoplay: true,
         animationCurve: Curves.fastOutSlowIn,

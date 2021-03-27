@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/componets/products.dart';
+import 'package:bolobolo/componets/products.dart';
 
 class ProductDetails extends StatefulWidget {
   final product_detail_name;

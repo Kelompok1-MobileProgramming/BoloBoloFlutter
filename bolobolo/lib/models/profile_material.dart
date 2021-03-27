@@ -1,4 +1,4 @@
-{
+/*{
   Row(mainAxisAlignment: MainAxisAlignment.spaceBetween,children: <Widget>[
 Container(height: 50, width: 50 ,child: Icon(Icons.arrow_back_ios, size: 24,color: Colors.black54,), decoration: BoxDecoration(border: Border.all(color: Colors.black54), borderRadius: BorderRadius.all(Radius.circular(10))),),
 Text('Profiles details', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),),
@@ -44,4 +44,4 @@ decoration: BoxDecoration(color: Colors.deepOrange,borderRadius: BorderRadius.on
 ],
 );
 
-}
+}*/

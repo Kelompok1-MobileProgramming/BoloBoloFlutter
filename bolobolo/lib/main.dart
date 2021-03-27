@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/home.dart';
-import 'package:flutter_demo/server.dart' as server;
-import 'package:flutter_demo/pages/signin.dart';
+import 'package:bolobolo/home.dart';
+import 'package:bolobolo/server.dart' as server;
+import 'package:bolobolo/pages/signin.dart';
 
 void main() {
   server.start();

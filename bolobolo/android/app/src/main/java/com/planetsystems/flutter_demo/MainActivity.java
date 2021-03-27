@@ -1,4 +1,4 @@
-package com.planetsystems.flutter_demo;
+package com.planetsystems.bolobolo;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

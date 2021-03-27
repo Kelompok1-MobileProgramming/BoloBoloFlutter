@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/componets/constants.dart';
-import 'package:flutter_demo/pages/widgets/custom_shape.dart';
-import 'package:flutter_demo/pages/widgets/responsive_ui.dart';
-import 'package:flutter_demo/pages/widgets/textformfield.dart';
-import 'package:flutter_demo/pages/signup.dart';
+import 'package:bolobolo/componets/constants.dart';
+import 'package:bolobolo/pages/widgets/custom_shape.dart';
+import 'package:bolobolo/pages/widgets/responsive_ui.dart';
+import 'package:bolobolo/pages/widgets/textformfield.dart';
+import 'package:bolobolo/pages/signup.dart';
 
-import 'package:flutter_demo/home.dart';
+import 'package:bolobolo/home.dart';
 
 class SignInPage extends StatelessWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo/pages/product_details.dart';
+import 'package:bolobolo/pages/product_details.dart';
 
 class Products extends StatefulWidget {
   @override

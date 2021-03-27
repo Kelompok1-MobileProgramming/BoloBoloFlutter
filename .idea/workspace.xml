@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d320b71-9f34-4a31-8dbb-9f535198e3e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bolobolo/images/marli.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/models/message_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/models/profile_material.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/models/user_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/pages/profile.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/screens/chat_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/screens/home_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolobolo/lib/pages/chats.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bolobolo/lib/pages/chats.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bolobolo/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bolobolo/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolobolo/lib/screens/setting/setting.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolobolo/lib/screens/setting/setting_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolobolo/lib/screens/shared_preferences_setting.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/marli programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/marli programming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bolobolo/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -65,9 +61,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1616434997184" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1616430273174">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1616857317943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616430273174" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616857317943" />
   </component>
 </project>

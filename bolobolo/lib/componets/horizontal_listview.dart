@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../componets/products.dart';
+import 'package:bolobolo/componets/rec_products.dart';
 
 class HorizontalList extends StatelessWidget {
   @override
@@ -20,7 +21,7 @@ class HorizontalList extends StatelessWidget {
                   child: InkWell(
                     onTap: () => Navigator.of(context).push(
                         new MaterialPageRoute(
-                            builder: (context) => Products())),
+                            builder: (context) => RecProducts())),
                     child: Image.asset(
                       'images/recomended.jpg',
                       width: 80,
@@ -45,7 +46,7 @@ class HorizontalList extends StatelessWidget {
                   child: InkWell(
                     onTap: () => Navigator.of(context).push(
                         new MaterialPageRoute(
-                            builder: (context) => Products())),
+                            builder: (context) => RecProducts())),
                     child: Image.asset(
                       'images/popular.jpg',
                       width: 80,
@@ -70,7 +71,7 @@ class HorizontalList extends StatelessWidget {
                   child: InkWell(
                     onTap: () => Navigator.of(context).push(
                         new MaterialPageRoute(
-                            builder: (context) => Products())),
+                            builder: (context) => RecProducts())),
                     child: Image.asset(
                       'images/allproduct.jpg',
                       width: 80,

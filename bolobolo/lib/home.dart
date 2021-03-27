@@ -114,7 +114,8 @@ class _HomePageState extends State<HomePage> {
               Divider(),
 
               new InkWell(
-                onTap: () {},
+                onTap: () => Navigator.of(context).push(
+                    new MaterialPageRoute(builder: (context) => MyApps())),
                 child: ListTile(
                   title: Text("My Account"),
                   leading: Icon(Icons.person),

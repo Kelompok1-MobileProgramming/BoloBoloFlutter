@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d320b71-9f34-4a31-8dbb-9f535198e3e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/screens/setting/setting.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/screens/setting/setting_screen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bolobolo/lib/screens/shared_preferences_setting.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/marli programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/marli programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolobolo/lib/componets/all_products.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bolobolo/lib/componets/pop_products.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolobolo/lib/componets/horizontal_listview.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bolobolo/lib/componets/horizontal_listview.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bolobolo/lib/componets/rec_products.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bolobolo/lib/componets/rec_products.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,5 +65,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1616857317943" />
+    <state x="390" y="0" width="585" height="728" key="find.popup" timestamp="1616858861423">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1616858861423" />
   </component>
 </project>

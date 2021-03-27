@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../home.dart';
 import '../models/message_model.dart';
 import '../screens/chat_screen.dart';
 
@@ -8,27 +9,27 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        brightness: Brightness.dark,
-        elevation: 8,
-        leading: IconButton(
-          icon: Icon(Icons.menu),
-          color: Colors.white,
-          onPressed: () {},
-        ),
-        title: Text(
-          'Inbox',
-          style: TextStyle(
-            color: Colors.white,
+          brightness: Brightness.dark,
+          elevation: 8,
+          leading: IconButton(
+              icon: Icon(Icons.arrow_back),
+              color: Colors.white,
+              onPressed: () => Navigator.of(context).push(
+                  new MaterialPageRoute(builder: (context) => new HomePage()))),
+          title: Text(
+            'Chats',
+            style: TextStyle(
+              color: Colors.white,
+            ),
           ),
-        ),
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(Icons.search),
-            color: Colors.white,
-            onPressed: () {},
-          ),
-        ],
-      ),
+          actions: <Widget>[
+            IconButton(
+              icon: Icon(Icons.search),
+              color: Colors.white,
+              onPressed: () {},
+            ),
+          ],
+          backgroundColor: Colors.purple),
       body: ListView.builder(
         itemCount: chats.length,
         itemBuilder: (BuildContext context, int index) {

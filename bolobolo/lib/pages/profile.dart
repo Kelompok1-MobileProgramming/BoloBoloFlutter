@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     borderRadius: BorderRadius.all(Radius.circular(10))),
               ),
               Text(
-                'Profiles details',
+                'My Profile',
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               Container(height: 24, width: 24)
@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       color: Colors.white,
                     ),
                     decoration: BoxDecoration(
-                        color: Colors.deepOrange,
+                        color: Colors.purple,
                         borderRadius: BorderRadius.all(Radius.circular(20))),
                   ))
             ],
@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
               gradient: LinearGradient(
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
-                  colors: [Colors.black54, Color.fromRGBO(0, 41, 102, 1)])),
+                  colors: [Colors.purple, Color.fromRGBO(0, 41, 102, 1)])),
           child: Column(
             children: <Widget>[
               Padding(

@@ -7,7 +7,7 @@ class PopProducts extends StatefulWidget {
   _ProductsState createState() => _ProductsState();
 }
 
-class _ProductsState extends State<RecProducts> {
+class _ProductsState extends State<PopProducts> {
   var product_list = [
     {
       "name": "Masker",

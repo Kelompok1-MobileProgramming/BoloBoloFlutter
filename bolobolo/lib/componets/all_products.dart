@@ -7,7 +7,7 @@ class AllProducts extends StatefulWidget {
   _ProductsState createState() => _ProductsState();
 }
 
-class _ProductsState extends State<RecProducts> {
+class _ProductsState extends State<AllProducts> {
   var product_list = [
     {
       "name": "Masker",
@@ -146,9 +146,9 @@ class Single_prod extends StatelessWidget {
 
   Single_prod(
       {this.prod_name,
-        this.prod_picture,
-        this.prod_old_price,
-        this.prod_price});
+      this.prod_picture,
+      this.prod_old_price,
+      this.prod_price});
 
   @override
   Widget build(BuildContext context) {
@@ -159,12 +159,12 @@ class Single_prod extends StatelessWidget {
             child: InkWell(
               onTap: () => Navigator.of(context).push(new MaterialPageRoute(
                   builder: (context) => new ProductDetails(
-                    //passing product content to product_details page
-                    product_detail_name: prod_name,
-                    product_detail_picture: prod_picture,
-                    product_detail_old_price: prod_old_price,
-                    product_detail_new_price: prod_price,
-                  ))),
+                        //passing product content to product_details page
+                        product_detail_name: prod_name,
+                        product_detail_picture: prod_picture,
+                        product_detail_old_price: prod_old_price,
+                        product_detail_new_price: prod_price,
+                      ))),
               child: GridTile(
                   footer: Container(
                     color: Colors.white70,

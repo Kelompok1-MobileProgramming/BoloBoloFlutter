@@ -71,52 +71,62 @@ List<Message> chats = [
 List<Message> messages = [
   Message(
     sender: jerry,
-    time: '5:30 PM',
-    text: 'Hey dude! Event dead I\'m the hero. Love you 3000 guys.',
+    time: '5:30 AM',
+    text: 'Kak, barangnya baru sampai kok uda rusak?',
     unread: true,
   ),
   Message(
     sender: currentUser,
-    time: '4:30 PM',
-    text: 'We could surely handle this mess much easily if you were here.',
+    time: '6:30 PM',
+    text: 'Barang sudah dikirim yah :)',
     unread: true,
   ),
   Message(
     sender: jerry,
-    time: '3:45 PM',
-    text: 'Take care of peter. Give him all the protection & his aunt.',
+    time: '5:45 PM',
+    text: 'Kk, apakah barangnya sudah dikirim?',
     unread: true,
   ),
   Message(
     sender: jerry,
     time: '3:15 PM',
-    text: 'I\'m always proud of her and blessed to have both of them.',
+    text: 'Sudah saya trf ya ka!',
+    unread: true,
+  ),
+  Message(
+    sender: currentUser,
+    time: '2:31 PM',
+    text: 'Tolong transfer dulu!',
     unread: true,
   ),
   Message(
     sender: currentUser,
     time: '2:30 PM',
-    text:
-        'But that spider kid is having some difficulties due his identity reveal by a blog called daily bugle.',
+    text: 'Bisa di transfer melalui e-money',
     unread: true,
   ),
   Message(
     sender: currentUser,
     time: '2:30 PM',
-    text:
-        'Pepper & Morgan is fine. They\'re strong as you. Morgan is a very brave girl, one day she\'ll make you proud.',
-    unread: true,
-  ),
-  Message(
-    sender: currentUser,
-    time: '2:30 PM',
-    text: 'Yes Tony!',
+    text: 'Untuk pembayaran',
     unread: true,
   ),
   Message(
     sender: jerry,
     time: '2:00 PM',
-    text: 'I hope my family is doing well.',
+    text: 'cara pesannya bagaimana kk?',
+    unread: true,
+  ),
+  Message(
+    sender: currentUser,
+    time: '1:30 PM',
+    text: 'ada ka!',
+    unread: true,
+  ),
+  Message(
+    sender: jerry,
+    time: '1:00 PM',
+    text: 'Kk, apakah barangnya ada?',
     unread: true,
   ),
 ];

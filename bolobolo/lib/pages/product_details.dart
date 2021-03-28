@@ -194,7 +194,10 @@ class _ProductDetailsState extends State<ProductDetails> {
 
               new IconButton(
                   icon: Icon(Icons.favorite_border, color: Colors.purple[700]),
-                  onPressed: () {}),
+                  onPressed: () {
+                    icon:
+                    Icon(Icons.favorite, color: Colors.purple[700]);
+                  }),
 
               new IconButton(
                   icon: Icon(Icons.star_border, color: Colors.purple[700]),

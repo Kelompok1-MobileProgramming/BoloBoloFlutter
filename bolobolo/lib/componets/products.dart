@@ -9,18 +9,6 @@ class Products extends StatefulWidget {
 class _ProductsState extends State<Products> {
   var product_list = [
     {
-      "name": "Masker",
-      "picture": "images/masker.jpg",
-      "old_price": "IDR 3,9k",
-      "price": "IDR 3,9k",
-    },
-    {
-      "name": "Jeans",
-      "picture": "images/jeans.jpg",
-      "old_price": "IDR 88k",
-      "price": "IDR 88k",
-    },
-    {
       "name": "Momogi",
       "picture": "images/momogi.jpg",
       "old_price": "IDR 20k",
@@ -31,42 +19,6 @@ class _ProductsState extends State<Products> {
       "picture": "images/samsung.jpg",
       "old_price": "IDR 2500k",
       "price": "IDR 2500k",
-    },
-    {
-      "name": "Sunsilk",
-      "picture": "images/sunsilk.jpg",
-      "old_price": "IDR 20k",
-      "price": "IDR 20k",
-    },
-    {
-      "name": "Kotak Bekal",
-      "picture": "images/kotak.jpg",
-      "old_price": "IDR 10k",
-      "price": "IDR 10k",
-    },
-    {
-      "name": "Spidol",
-      "picture": "images/spidol.jpg",
-      "old_price": "IDR 8k",
-      "price": "IDR 8k",
-    },
-    {
-      "name": "Pensil",
-      "picture": "images/pensil.jpg",
-      "old_price": "IDR 1k",
-      "price": "IDR 1k",
-    },
-    {
-      "name": "Airpods",
-      "picture": "images/airpods.jpg",
-      "old_price": "IDR 750k",
-      "price": "IDR 750k",
-    },
-    {
-      "name": "Baju Polos Putih",
-      "picture": "images/bajupolos.jpg",
-      "old_price": "IDR 8k",
-      "price": "IDR 8k",
     },
     {
       "name": "Beat",
@@ -85,24 +37,6 @@ class _ProductsState extends State<Products> {
       "picture": "images/keti.jpg",
       "old_price": "IDR 1000k",
       "price": "IDR 1000k",
-    },
-    {
-      "name": "Kue",
-      "picture": "images/kue.jpg",
-      "old_price": "IDR 150k",
-      "price": "IDR 150k",
-    },
-    {
-      "name": "Maechee",
-      "picture": "images/maichi.jpg",
-      "old_price": "IDR 6k",
-      "price": "IDR 6k",
-    },
-    {
-      "name": "Sari Roti",
-      "picture": "images/sariroti.jpg",
-      "old_price": "IDR 13k",
-      "price": "IDR 13k",
     },
     {
       "name": "Mainan",

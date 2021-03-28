@@ -68,10 +68,11 @@ class _HomePageState extends State<HomePage> {
                 currentAccountPicture: GestureDetector(
                   child: new CircleAvatar(
                     backgroundColor: Colors.grey,
-                    child: Icon(
+                    backgroundImage: AssetImage('images/marli.jpg'),
+                    /*child: Icon(
                       Icons.person,
                       color: Colors.white,
-                    ),
+                    ),*/
                   ),
                 ),
                 decoration: new BoxDecoration(color: Colors.purple[700]),
@@ -128,7 +129,7 @@ class _HomePageState extends State<HomePage> {
                 onTap: () => Navigator.of(context).push(new MaterialPageRoute(
                     builder: (context) => new SignInScreen())),
                 child: ListTile(
-                  title: Text("Login"),
+                  title: Text("Logout"),
                   leading: Icon(Icons.person),
                 ),
               ),

@@ -70,7 +70,7 @@ class _ChatScreenState extends State<ChatScreen> {
                       ),
                       child: CircleAvatar(
                         radius: 15,
-                        backgroundImage: AssetImage(message.sender.imageUrl),
+                        backgroundImage: AssetImage('images/marli.jpg'),
                       ),
                     ),
                   ],

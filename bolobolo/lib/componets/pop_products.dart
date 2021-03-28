@@ -10,54 +10,6 @@ class PopProducts extends StatefulWidget {
 class _ProductsState extends State<PopProducts> {
   var product_list = [
     {
-      "name": "Masker",
-      "picture": "images/masker.jpg",
-      "old_price": "IDR 3,9k",
-      "price": "IDR 3,9k",
-    },
-    {
-      "name": "Jeans",
-      "picture": "images/jeans.jpg",
-      "old_price": "IDR 88k",
-      "price": "IDR 88k",
-    },
-    {
-      "name": "Momogi",
-      "picture": "images/momogi.jpg",
-      "old_price": "IDR 20k",
-      "price": "IDR 20k",
-    },
-    {
-      "name": "Samsung",
-      "picture": "images/samsung.jpg",
-      "old_price": "IDR 2500k",
-      "price": "IDR 2500k",
-    },
-    {
-      "name": "Sunsilk",
-      "picture": "images/sunsilk.jpg",
-      "old_price": "IDR 20k",
-      "price": "IDR 20k",
-    },
-    {
-      "name": "Kotak Bekal",
-      "picture": "images/kotak.jpg",
-      "old_price": "IDR 10k",
-      "price": "IDR 10k",
-    },
-    {
-      "name": "Spidol",
-      "picture": "images/spidol.jpg",
-      "old_price": "IDR 8k",
-      "price": "IDR 8k",
-    },
-    {
-      "name": "Pensil",
-      "picture": "images/pensil.jpg",
-      "old_price": "IDR 1k",
-      "price": "IDR 1k",
-    },
-    {
       "name": "Airpods",
       "picture": "images/airpods.jpg",
       "old_price": "IDR 750k",
@@ -146,9 +98,9 @@ class Single_prod extends StatelessWidget {
 
   Single_prod(
       {this.prod_name,
-        this.prod_picture,
-        this.prod_old_price,
-        this.prod_price});
+      this.prod_picture,
+      this.prod_old_price,
+      this.prod_price});
 
   @override
   Widget build(BuildContext context) {
@@ -159,12 +111,12 @@ class Single_prod extends StatelessWidget {
             child: InkWell(
               onTap: () => Navigator.of(context).push(new MaterialPageRoute(
                   builder: (context) => new ProductDetails(
-                    //passing product content to product_details page
-                    product_detail_name: prod_name,
-                    product_detail_picture: prod_picture,
-                    product_detail_old_price: prod_old_price,
-                    product_detail_new_price: prod_price,
-                  ))),
+                        //passing product content to product_details page
+                        product_detail_name: prod_name,
+                        product_detail_picture: prod_picture,
+                        product_detail_old_price: prod_old_price,
+                        product_detail_new_price: prod_price,
+                      ))),
               child: GridTile(
                   footer: Container(
                     color: Colors.white70,

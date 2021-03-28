@@ -220,7 +220,7 @@ class _SignInScreenState extends State<SignInScreen> {
         Navigator.of(context)
             .push(new MaterialPageRoute(builder: (context) => new HomePage()));
         Scaffold.of(context)
-            .showSnackBar(SnackBar(content: Text('Login Successful')));
+            .showSnackBar(SnackBar(content: Text('Logged out')));
       },
       textColor: Colors.white,
       padding: EdgeInsets.all(0.0),
